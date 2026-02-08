@@ -67,7 +67,7 @@ export default function AppLayout() {
 
       {/* Main */}
       <main className="flex-1 ml-64">
-        <div className="p-6 lg:p-8">
+        <div className="p-6 lg:p-8 animate-fade-in">
           <Outlet />
         </div>
       </main>
